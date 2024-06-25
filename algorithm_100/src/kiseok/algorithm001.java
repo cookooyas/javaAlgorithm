@@ -41,7 +41,7 @@ public class algorithm001 {
 		
 		while (true) {
 			System.out.print("ㄲ? >>");
-			inp = sc.next();
+			inp = sc.next().toLowerCase();
 			if (inp.equals("n")) {
 				break;
 			} else if (inp.equals("y")) {
